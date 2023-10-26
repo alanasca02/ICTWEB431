@@ -11,15 +11,17 @@ body {
 body.home {
   background-image: url(file:///C:/Users/30022406/OneDrive%20-%20Sunraysia%20Institute%20of%20TAFE/ICTWEB431%20Create%20and%20style%20simple%20markup%20language%20documents/Assessment%201/backgrounds/background%20img.jpg);
   background-size: cover;
+  background-position: 0px 95px;
 }
 
+
 body.contact {
-  background-image: 
-  background size: cover;
+  background-image: url(file:///C:/Users/30022406/OneDrive%20-%20Sunraysia%20Institute%20of%20TAFE/ICTWEB431%20Create%20and%20style%20simple%20markup%20language%20documents/Assessment%201/backgrounds/wallpaper%20header.jpg);
+  background-size: cover;
  }
 
 body.products {
-  background-color:"black";
+  background-color: black;
 }
 
 
@@ -32,15 +34,19 @@ body.products {
 }
 
 .content {
+  padding: 175px;
   float: left;
-  padding: 250px;
   color: white;
-  font-size: 25px;
+  font-size: 28px;
+}
+
+a {
+color: lightpink;
 }
 
 
 .topnav {
-  background-color:#5a157e;
+  background-color:#620cc4;
   overflow: hidden;
 }
 
@@ -54,19 +60,53 @@ body.products {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color:#cccccc ;
+  background-color: #e1e1e1;
+  color: black;
 }
 
 .topnav a.active {
-  background-color:#5a157e ;
+  background-color:#620cc4 ;
   color: white;
+}
+
 
 .container {
   align-items: center; 
   float: left;
 }
-.image{
-    float: left;
-  padding: 5px;
+
+div.clear {
+	clear: both;
 }
+
+div.image {
+  width: 100%;
+  margin: 3px;
+  box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 800px) {
+	div.image {
+		float: left;
+		width: 33%;
+		box-sizing: border-box;
+		align: center;
+		text-align: center;
+	}
+}
+
+p { 
+   color: white;
+   font: Arial;
+   font-size: 25px;
+}
+	
+h2 {
+	color: white;
+	font-size: 35px;
+	text-align: center;
+}
+	
+
+
