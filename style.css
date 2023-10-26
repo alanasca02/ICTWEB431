@@ -9,14 +9,14 @@ body {
 } 
 
 body.home {
-  background-image: url(file:///C:/Users/30022406/OneDrive%20-%20Sunraysia%20Institute%20of%20TAFE/ICTWEB431%20Create%20and%20style%20simple%20markup%20language%20documents/Assessment%201/backgrounds/background%20img.jpg);
+  background-image: url(backgrounds/background%20img.jpg);
   background-size: cover;
   background-position: 0px 95px;
 }
 
 
 body.contact {
-  background-image: url(file:///C:/Users/30022406/OneDrive%20-%20Sunraysia%20Institute%20of%20TAFE/ICTWEB431%20Create%20and%20style%20simple%20markup%20language%20documents/Assessment%201/backgrounds/wallpaper%20header.jpg);
+  background-image: url(backgrounds/wallpaper%20header.jpg);
   background-size: cover;
  }
 
