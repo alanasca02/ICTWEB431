@@ -4,7 +4,6 @@
 
 
 body {
-  font-family: ;
   margin: 0;
 } 
 
@@ -42,6 +41,16 @@ body.products {
 
 a {
 color: lightpink;
+}
+
+div.base{
+	position: fixed;
+	bottom: 0px;
+	left:0;
+	width: 100%;
+	text-align: center;
+	background-color: #620cc4;
+	color: white;
 }
 
 
@@ -91,14 +100,12 @@ div.image {
 		float: left;
 		width: 33%;
 		box-sizing: border-box;
-		align: center;
 		text-align: center;
 	}
 }
 
 p { 
    color: white;
-   font: Arial;
    font-size: 25px;
 }
 	
@@ -107,6 +114,9 @@ h2 {
 	font-size: 35px;
 	text-align: center;
 }
-	
-
+ h1 {	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}	
 
